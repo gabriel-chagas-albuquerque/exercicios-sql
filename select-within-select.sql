@@ -1,3 +1,5 @@
+-- OBS: A partir da questão 8 eu não consegui resolver sozinho, acabei recorrendo ao ChatGPT mas não entendi direito, se puder dar uma explicada melhor nessa parte eu agradeço
+
 -- Questão 1
 SELECT name FROM world
   WHERE population >
@@ -67,3 +69,4 @@ WHERE population > ALL
   WHERE y.continent = x.continent
   AND x.name != y.name
 )
+
